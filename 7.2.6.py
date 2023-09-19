@@ -70,7 +70,7 @@ def to_short_obj(my_list):
     this func will print all the obj. that are too short (item name < len 3).
     :param my_list: list of obj.
     :type my_list: list
-    :return: noun, only print operation
+    :return: none, only print operation
     :rtype: none
     """
     for obj in my_list:
