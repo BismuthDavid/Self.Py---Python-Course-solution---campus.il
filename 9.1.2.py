@@ -4,7 +4,7 @@ def sort(str_file_path):
     :param str_file_path: file path to read from it.
     :type str_file_path: str
     :return: print sorted list of word.
-    :rtype: noun - just printing order.
+    :rtype: none - just printing order.
     """
     list_to_sort = list()
     with open(str_file_path) as input_file:
@@ -23,7 +23,7 @@ def rev(str_file_path):
     :param str_file_path: string of file path
     :type str_file_path: str
     :return: printing every line in a reversed order.
-    :rtype: noun - just a printing order.
+    :rtype: none - just a printing order.
     """
     with open(str_file_path) as input_file:
         for line in input_file:
@@ -36,7 +36,7 @@ def last(str_file_path):
     :param str_file_path: string of file path
     :type str_file_path: str
     :return: printing N lines from the end of the file (N = num as an input from user)
-    :rtype: noun - just printing order.
+    :rtype: none - just printing order.
     """
     i = 0
     line_num = int(input("Enter a number: "))

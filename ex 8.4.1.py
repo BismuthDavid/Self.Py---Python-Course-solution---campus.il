@@ -56,7 +56,6 @@ def print_hangman(num_of_tries):
     letter.
     :param num_of_tries: num of times he failed to guess the next letter.
     :type num_of_tries: int
-    :return: string of chars that represent the HANGMAN
-    :rtype: str
+    :return: none, just printing string of chars that represent the HANGMAN
     """
     print(dict_of_hangman[num_of_tries])

@@ -6,7 +6,7 @@ def copy_file_content(source, destination):
     :param destination: file path to write into the info.
     :type destination: str.
     :return: copy all the info from source to destination.
-    :rtype: noun - the func will only copy from one file to the other.
+    :rtype: none - the func will only copy from one file to the other.
     """
     info = ""
     with open(source, "r") as input_file:

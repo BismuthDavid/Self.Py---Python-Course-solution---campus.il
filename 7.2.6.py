@@ -71,7 +71,7 @@ def to_short_obj(my_list):
     :param my_list: list of obj.
     :type my_list: list
     :return: noun, only print operation
-    :rtype: noun
+    :rtype: none
     """
     for obj in my_list:
         if len(obj) < 3 or not obj.isalpha():

@@ -17,4 +17,3 @@ def are_files_equal(file1, file2):
         return True
     else:
         return False
-    

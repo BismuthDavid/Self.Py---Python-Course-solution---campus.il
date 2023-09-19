@@ -7,7 +7,7 @@ def my_mp4_playlist(file_path, new_song):
     :param new_song: string for the new name of the third song.
     :type file_path, new_song: str.
     :return: the func will print the final output, and save the info to the original file.
-    :rtype: noun
+    :rtype: none
     """
     with open(file_path, 'r') as input_file:
         data = input_file.read().splitlines()
