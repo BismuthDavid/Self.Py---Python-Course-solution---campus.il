@@ -3,7 +3,7 @@
 Welcome to Self.Py, an engaging Python course hosted on the online platform "Campus IL." 
 This course provides an excellent opportunity to embark on your Python programming journey.
 
-Course Link: [Self.Py Python Course]([url](https://courses.campus.gov.il/courses/course-v1:CS+GOV_PythonSelfPy101_HE+2023_2/course/))
+Course Link: https://courses.campus.gov.il/courses/course-v1:CS+GOV_PythonSelfPy101_HE+2023_2/course
 
 In this repository, I present my proposed solutions to all the exercises assigned throughout the course. 
 
